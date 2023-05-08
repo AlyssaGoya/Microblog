@@ -1,0 +1,137 @@
+2023-05-04 15:58:46,899 ERROR: Exception on /edit_profile [POST] [in D:\005Anaconda\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\005Anaconda\lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\routes.py", line 92, in edit_profile
+    if form.validate_on_submit():
+  File "D:\005Anaconda\lib\site-packages\flask_wtf\form.py", line 86, in validate_on_submit
+    return self.is_submitted() and self.validate(extra_validators=extra_validators)
+TypeError: validate() got an unexpected keyword argument 'extra_validators'
+2023-05-04 15:59:10,040 INFO: Microblog startup [in D:\实验作业\2023-25 Web应用开发\project\code\11\app\__init__.py:49]
+2023-05-04 15:59:16,760 ERROR: Exception on /edit_profile [POST] [in D:\005Anaconda\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\005Anaconda\lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\routes.py", line 92, in edit_profile
+    if form.validate_on_submit():
+  File "D:\005Anaconda\lib\site-packages\flask_wtf\form.py", line 86, in validate_on_submit
+    return self.is_submitted() and self.validate(extra_validators=extra_validators)
+TypeError: validate() got an unexpected keyword argument 'extra_validators'
+2023-05-04 16:03:22,445 INFO: Microblog startup [in D:\实验作业\2023-25 Web应用开发\project\code\11\app\__init__.py:49]
+2023-05-04 16:06:04,321 INFO: Microblog startup [in D:\实验作业\2023-25 Web应用开发\project\code\11\app\__init__.py:49]
+2023-05-04 16:06:12,100 ERROR: Exception on /edit_profile [POST] [in D:\005Anaconda\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\005Anaconda\lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\routes.py", line 92, in edit_profile
+    if form.validate_on_submit():
+  File "D:\005Anaconda\lib\site-packages\flask_wtf\form.py", line 86, in validate_on_submit
+    return self.is_submitted() and self.validate(extra_validators=extra_validators)
+TypeError: validate() got an unexpected keyword argument 'extra_validators'
+2023-05-04 16:06:49,867 INFO: Microblog startup [in D:\实验作业\2023-25 Web应用开发\project\code\11\app\__init__.py:49]
+2023-05-04 16:07:29,626 INFO: Microblog startup [in D:\实验作业\2023-25 Web应用开发\project\code\11\app\__init__.py:49]
+2023-05-04 16:07:58,480 ERROR: Exception on /login [POST] [in D:\005Anaconda\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\routes.py", line 41, in login
+    if not next_page or url_unparse(next_page).netloc != '':
+  File "D:\005Anaconda\lib\site-packages\werkzeug\urls.py", line 603, in url_unparse
+    scheme, netloc, path, query, fragment = components
+ValueError: too many values to unpack (expected 5)
+2023-05-04 16:10:33,588 ERROR: Exception on /login [POST] [in D:\005Anaconda\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\routes.py", line 36, in login
+    if user is None or not user.check_password(form.password.data):
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\models.py", line 29, in check_password
+    return check_password_hash(self.password_hash, password)
+  File "D:\005Anaconda\lib\site-packages\werkzeug\security.py", line 103, in check_password_hash
+    if pwhash.count("$") < 2:
+AttributeError: 'NoneType' object has no attribute 'count'
+2023-05-04 16:10:55,252 ERROR: Exception on /login [POST] [in D:\005Anaconda\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\routes.py", line 36, in login
+    if user is None or not user.check_password(form.password.data):
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\models.py", line 29, in check_password
+    return check_password_hash(self.password_hash, password)
+  File "D:\005Anaconda\lib\site-packages\werkzeug\security.py", line 103, in check_password_hash
+    if pwhash.count("$") < 2:
+AttributeError: 'NoneType' object has no attribute 'count'
+2023-05-04 16:11:21,702 ERROR: Exception on /login [POST] [in D:\005Anaconda\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\routes.py", line 36, in login
+    if user is None or not user.check_password(form.password.data):
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\models.py", line 29, in check_password
+    return check_password_hash(self.password_hash, password)
+  File "D:\005Anaconda\lib\site-packages\werkzeug\security.py", line 103, in check_password_hash
+    if pwhash.count("$") < 2:
+AttributeError: 'NoneType' object has no attribute 'count'
+2023-05-04 16:11:34,061 ERROR: Exception on /login [POST] [in D:\005Anaconda\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\005Anaconda\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\实验作业\2023-25 Web应用开发\project\code\11\app\routes.py", line 41, in login
+    if not next_page or url_unparse(next_page).netloc != '':
+  File "D:\005Anaconda\lib\site-packages\werkzeug\urls.py", line 603, in url_unparse
+    scheme, netloc, path, query, fragment = components
+ValueError: too many values to unpack (expected 5)
